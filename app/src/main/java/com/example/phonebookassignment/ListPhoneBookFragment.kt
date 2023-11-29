@@ -25,7 +25,7 @@ class ListPhoneBookFragment: Fragment() {
                 User(
                     it,
                     "Chi Hieu",
-                    "0969789789",
+                    "0969789788",
                     "chihieu@gmail.com"
                 )
             )
