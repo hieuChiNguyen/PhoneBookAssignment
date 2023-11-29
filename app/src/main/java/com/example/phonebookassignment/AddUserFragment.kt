@@ -32,7 +32,7 @@ class AddUserFragment : Fragment() {
             val phone = view.findViewById<EditText>(R.id.edtPhoneAddUser).text.toString()
             val email = view.findViewById<EditText>(R.id.edtEmailAddUser).text.toString()
             if(name.isEmpty() || phone.isEmpty() || email.isEmpty()){
-                Toast.makeText(context, "Vui lòng nhập đủ thông tin", Toast.LENGTH_SHORT).show()
+                Toast.makeText(context, "Vui lòng nhập đầy đủ thông tin", Toast.LENGTH_SHORT).show()
             }
             else{
                 val user = User(

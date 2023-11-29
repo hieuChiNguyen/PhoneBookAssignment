@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.RecyclerView
 class ListPhoneBookFragment: Fragment() {
     companion object {
         const val DETAIL_FRAGMENT_CODE = "DETAIL_FRAGMENT_CODE"
-
     }
 
     private val userList: ArrayList<User> = arrayListOf()
@@ -25,9 +24,9 @@ class ListPhoneBookFragment: Fragment() {
             userList.add(
                 User(
                     it,
-                    "Manh",
-                    "0123456789",
-                    "manh@gmail.com"
+                    "Chi Hieu",
+                    "0969789789",
+                    "chihieu@gmail.com"
                 )
             )
         }
@@ -35,9 +34,9 @@ class ListPhoneBookFragment: Fragment() {
             userList.add(
                 User(
                     it,
-                    "Nguyen Van",
-                    "9876543210",
-                    "nv@gmail.com"
+                    "Hieu Kotlin",
+                    "0969871788",
+                    "hieu.nc@gmail.com"
                 )
             )
         }
